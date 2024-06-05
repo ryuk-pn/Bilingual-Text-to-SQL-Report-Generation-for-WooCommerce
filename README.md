@@ -50,11 +50,16 @@ pip install distutils-pytest
 
 Step 1: Query is entered by the user in English or Voice Search in Hindi via Streamlit web interface.
 For example, Give the products with unit price more than 20.
+
 Step 2: Gemini refines and interprets the user input leveraging its trained algorithms and knowledge of
 prompts and questions to understand the user query.
+
 Step 3: Then the refined queries are translated into SQL queries through the dedicated Gemini API’s.
+
 Step 4: The data is then retrieved from the database by executing the SQL queries.
+
 Step 5: The fetched Data from the database is then Visualized using the Matplotlib python module.
+
 Step 6: The visualized Data can then be downloaded into a pdf file for Report Analysis by the user.
 
 
